@@ -49,7 +49,7 @@ public class NumberTester {
                         System.out.println("even(" + n2 + ") = " + oddTester.testNumber(n2));
                         break;
                     case TEST_PRIME:
-                        System.out.println("prime(" + n2 + ") = " + primeTester.testNumber(n2));
+                        System.out.println("prime(" + n2 + ") = " + palindromeTester.testNumber(n2));
                         break;
                     case TEST_PALINDROME:
                         System.out.println("palindrome(" + n2 + ") = " + palindromeTester.testNumber(n2));

@@ -26,8 +26,10 @@ public class Main {
 //        });
 //        tester.testFile();
 
-        RationalCalculator c = new RationalCalculator();
-        System.out.println(c.add(new Numbers(1,4), new Numbers(3,8)));
+//        RationalCalculator c = new RationalCalculator();
+//        System.out.println(c.add(new Numbers(1,4), new Numbers(3,8)));
+
+        CalculatorConsole.run();
     }
 
 }
